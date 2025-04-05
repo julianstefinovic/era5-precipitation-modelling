@@ -1,6 +1,3 @@
-from pathlib import Path
-
-readme_content = """
 # 🌦️ ERA5 Weather Forecasting with Deep Learning
 
 This project focuses on building a machine learning pipeline using ERA5 reanalysis data to predict **total precipitation** based on various atmospheric variables. The data is processed, visualized, and loaded into PyTorch models using a custom `Dataset` class.
