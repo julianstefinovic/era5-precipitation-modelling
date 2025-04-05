@@ -13,7 +13,7 @@ This project focuses on building a machine learning pipeline using ERA5 reanalys
 
 ## 🗂️ Data Overview
 
-Data is collected from [ERA5 Reanalysis](https://cds.climate.copernicus.eu/cdsapp#!/home) via the `cdsapi` and split into three categories:
+Data is collected from [ERA5 Reanalysis](https://cds.climate.copernicus.eu/datasets) via the `cdsapi` and split into three categories: https://cds.climate.copernicus.eu/datasets
 
 ### 🟦 Instantaneous Surface Variables
 - `2m_temperature` (t2m)
