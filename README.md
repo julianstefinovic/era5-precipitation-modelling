@@ -61,12 +61,12 @@ Below are sample validation outputs from various training steps:
 
 | Step     | Sample Output |
 |----------|----------------|
-| 0        | ![Step 0](validation_images/validation_step_0.png) |
-| 200      | ![Step 200](validation_images/validation_step_200.png) |
-| 500      | ![Step 500](validation_images/validation_step_500.png) |
-| 1000     | ![Step 1000](validation_images/validation_step_1000.png) |
-| 2000     | ![Step 2000](validation_images/validation_step_2000.png) |
-| 5000     | ![Step 5000](validation_images/validation_step_5000.png) |
+| 0        | ![Step 0](validation_images/validation_step_00000.png) |
+| 200      | ![Step 200](validation_images/validation_step_00200.png) |
+| 500      | ![Step 500](validation_images/validation_step_00500.png) |
+| 1000     | ![Step 1000](validation_images/validation_step_01000.png) |
+| 2000     | ![Step 2000](validation_images/validation_step_02000.png) |
+| 5000     | ![Step 5000](validation_images/validation_step_05000.png) |
 | 10000    | ![Step 10000](validation_images/validation_step_10000.png) |
 | 15000    | ![Step 15000](validation_images/validation_step_15000.png) |
 
