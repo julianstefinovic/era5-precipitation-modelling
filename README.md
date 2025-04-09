@@ -35,15 +35,9 @@ Data is collected from [ERA5 Reanalysis](https://cds.climate.copernicus.eu/datas
 
 ## 🤖 Model Architecture
 
-This project uses a convolutional neural network (CNN) based **U-Net** architecture for precipitation prediction. The U-Net is designed for spatial data, and is commonly used for image-to-image tasks. Key features include:
-
-- ⚙️ **Encoder-decoder structure** with skip connections
-- 📐 Handles multi-channel 2D atmospheric input maps
-- 🕸️ Maintains spatial resolution of the target (precipitation) field
-- 🧼 Trained with MSE loss and optional regularization
+This project uses a convolutional neural network (CNN) based **U-Net** architecture for precipitation prediction. The U-Net is designed for spatial data, and is commonly used for image-to-image tasks. 
 
 The model takes multiple atmospheric variables as input and learns to predict total precipitation over a given region and time.
-
 
 ## 🧠 Model Input & Output
 
@@ -71,4 +65,3 @@ Below are sample validation outputs from various training steps:
 
 - 📊 **Training Data Exploration**: For a comprehensive look at the input variables, spatial patterns, and relationships in the ERA5 dataset, check out [`era5-data-exploration-precip.ipynb`](./era5-data-exploration-precip.ipynb).
 - 🧪 **Test Data Visualizations**: Final visualizations and model evaluation on unseen test data can be found at the end of [`training.ipynb`](./training.ipynb).
-
