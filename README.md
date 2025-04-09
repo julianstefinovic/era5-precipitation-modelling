@@ -65,3 +65,26 @@ Below are sample validation outputs from various training steps:
 
 - 📊 **Training Data Exploration**: For a comprehensive look at the input variables, spatial patterns, and relationships in the ERA5 dataset, check out [`era5-data-exploration-precip.ipynb`](./era5-data-exploration-precip.ipynb).
 - 🧪 **Test Data Visualizations**: Final visualizations and model evaluation on unseen test data can be found at the end of [`training.ipynb`](./training.ipynb).
+
+## 🚀 Future Directions
+
+There are many exciting directions for improving and expanding this project:
+
+- **🔁 Predict Additional or Novel Variables**  
+  Extend the model to predict other meteorological variables, such as:
+  - **Snow depth**
+  - **Surface runoff**
+  - **Soil temperature**
+  - **Solar radiation components**  
+
+- **📈 Add More Input Variables**  
+  Incorporate additional atmospheric features to provide richer context and improve predictive performance.
+
+- **🧠 Experiment With New Model Architectures**  
+  Explore more advanced or alternative models:
+  - **Vision Transformers (ViT)**  
+  - **Diffusion Models** 
+  - **ConvLSTM**
+
+- **🌍 Expand Geographic or Temporal Scope**  
+  Apply the pipeline to a larger geographical subgrid, or train on longer historical periods for more generalized models.
